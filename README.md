@@ -3,7 +3,7 @@
 ## Prefácio
 
 Maria frequentemente esquece suas senhas, pensando nisso decidiu anotá-las, 
-mas lembrou que outras pessoas podem ter acesso, então pensou em criptografar,
+mas lembrou que outras pessoas podem ter acesso, então pensou em criptografar
 antes de anotá-las, assim poderá guardá-las criptografadas e com segurança, 
 sem que possam descobrir e quando precisar utilizá-las poderá descriptografar. 😎
 
@@ -33,7 +33,7 @@ criptografia, como a cifra de Vigenère, e tem aplicação no sistema ROT13.
 ## Fluxograma
 
 ![Fluxograma ]
-(C:\Users\Amanda Gomes\Desktop\Docs Amanda\Laboratoria\1º Projeto\Cypher\caesar-cipher\Diagrama Cypher.jpeg)
+(https://raw.githubusercontent.com/amanda-gomes/caesar-cipher/master/Diagrama%20Cypher.jpeg)
 
 ## Checklist
 

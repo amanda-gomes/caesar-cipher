@@ -7,7 +7,21 @@
   </head>
   <body>
     <div id="root"></div>
+    <h1>Code/Decode</h1>
+
+    <h3>O deslocamento atual é:</h3>
+    <p id="deslocamento">3</p>
+    <input type="button" id="trocar" value="Alterar" onclick="deslocamento()">
+    
+    <h3>Digite a frase:</h3>
+    <input type="text" id="texto" style="width:500px"><br>
+    <input type="button" id="criptografar" value="Criptografar" onclick="code()">
+    <input type="button" id="descriptografar" value="Descriptografar" onclick="decode()">
+
+    <p id="result"></p>
+    
     <script src="cipher.js"></script>
-    <script src="index.js"></script>
+    <script src="tests.js"></script>
   </body>
 </html>
+

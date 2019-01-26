@@ -33,7 +33,7 @@ criptografia, como a cifra de Vigenère, e tem aplicação no sistema ROT13.
 ## Fluxograma
 
 ![Fluxograma ]
-(https://github.com/amanda-gomes/caesar-cipher/master/Diagrama%20Cypher.jpeg)
+(https://github.com/amanda-gomes/caesar-cipher/master/diagrama.jpeg)
 
 ## Checklist
 

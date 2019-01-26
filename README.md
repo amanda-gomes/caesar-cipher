@@ -32,8 +32,7 @@ criptografia, como a cifra de Vigenère, e tem aplicação no sistema ROT13.
 
 ## Fluxograma
 
-![Fluxograma]
-(src/img/diagrama.jpeg)
+![Fluxograma](src/img/diagrama.jpeg)
 
 ## Checklist
 

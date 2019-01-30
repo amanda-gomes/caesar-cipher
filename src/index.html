@@ -2,23 +2,37 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Cypher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <h1>Code/Decode</h1>
-
-    <h3>O deslocamento atual é:</h3>
-    <p id="deslocamento">3</p>
-    <input type="button" id="trocar" value="Alterar" onclick="deslocamento()">
+    <div id="fundo">
     
-    <h3>Digite a frase:</h3>
-    <input type="text" id="texto" style="width:500px"><br>
-    <input type="button" id="criptografar" value="Criptografar" onclick="code()">
-    <input type="button" id="descriptografar" value="Descriptografar" onclick="decode()">
+    <div class="cabecalho">
+    <h1>!#@ CIPHER \*&</h1>
+    <h3>Guarde suas senhas e mensagens com segurança.</h3>
+    </div>
 
-    <p id="result"></p>
+    <div class="texto">
+    <h3 id="titulo">Digite a mensagem:</h3>
+    <textarea rows="5" cols="70" id="texto" placeholder="Digite aqui sua frase"></textarea><br>
+    <p>Chave padrão: 2</p>
+    <p>Para alterar, digite a chave abaixo:</p>
+    <input type="number" id="offset" value="2"><br><br>
+    <button id="cifrar">Cifrar</button>
+    <button id="decifrar">Decifrar</button>
+    </div>
+    
+    <div id="result" class="result">
+    <h3 id="titulo2">Mensagem cifrada/decifrada:</h3>
+    <textarea rows=5 cols=70 placeholder="Mensagem cifrada/decifrada aparecerá aqui"></textarea><br>
+    </div>
+
+    <div class="rodape">
+    <button id="limpar">Limpar tudo</button>
+    </footer>
+
+    </div>
     
     <script src="cipher.js"></script>
     <script src="tests.js"></script>

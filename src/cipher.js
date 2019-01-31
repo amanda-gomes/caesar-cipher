@@ -38,24 +38,12 @@ function decifrar (string,offset){
   for (let i = 0; i < string.length; i++) {
     num = string.charCodeAt([i]);
     if (num >= 65 && num <= 90) {
-        num = ((num - 65 - offset) % 26) + 65;
-        if (num < 65){
-          num = ((string.charCodeAt([i]) - 65 - offset) % 26) + 91;
-          ntexto = ntexto.concat(String.fromCharCode(num));
-        } 
-        else {
-          ntexto = ntexto.concat(String.fromCharCode(num));
-        }
+        num = ((num - 90 - offset) % 26) + 90;
+        ntexto = ntexto.concat(String.fromCharCode(num));
     }    
     else if (num >= 97 && num <= 122){
-        num = ((num - 97 - offset) % 26) + 97;
-        if (num < 97){
-          num = ((string.charCodeAt([i]) - 97 - offset) % 26) + 123;
-          ntexto = ntexto.concat(String.fromCharCode(num));
-        } 
-        else {
-          ntexto = ntexto.concat(String.fromCharCode(num));
-        }
+        num = ((num - 122 - offset) % 26) + 122;
+        ntexto = ntexto.concat(String.fromCharCode(num));
     }
     else {
       ntexto = ntexto.concat(String.fromCharCode(num));

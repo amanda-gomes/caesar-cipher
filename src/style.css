@@ -30,14 +30,13 @@ body{
     border-color: #0B1229;
 }
 
-#titulo {
-    text-align: center;
+#titulo1 {
     color: #7B0D1E;
     border-radius: 1em;
     padding: 1em;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 22%;
     transform: translate(-50%,-360%); 
     background: white;
 }
@@ -49,7 +48,7 @@ body{
     padding: 1em;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 35%;
     width: 350px;
     transform: translate(-50%,-230%); 
     background: white;
@@ -64,7 +63,7 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-10%,70%);
+    transform: translate(-10%,80%);
     background: #0B1227;
     border: 7px outset;
     border-color: #0B1229;

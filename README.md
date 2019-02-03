@@ -48,12 +48,11 @@ seu projeto.
 
 * `src/index.html`: este é o ponto de entrada da aplicação. Este arquivo
   contem o _markup_ (HTML) e o CSS e JavaScript necessário.
-* `src/cipher.js`: este é o objeto cipher, o qual estar _exportado_ no objeto 
-  global (`window`). Este objeto (`cipher`) contem dois métodos:
-    - `cipher.encode(offset, string)`: `offset` é o número de posições que
-    queremos mover para a direita no alfabeto e `string` a mensagem (texto)
-    que queremos cifrar.
-    - `cipher.decode(offset, string)`: `offset` é o número de posições que
-    queremos mover para a esquerda no alfabeto e `string` é a mensagem (texto)
-    que queremos decifrar.
+* `src/cipher.js`: este é o objeto (`cipher`) contem dois métodos:
+    - `cipher.cifrar(string,offset)`: `string` a mensagem (texto) que queremos 
+    cifrar e `offset` é o número de posições que queremos mover para a direita 
+    no alfabeto.
+    - `cipher.decifrar(string,offset)`: `string` é a mensagem (texto) que queremos 
+    decifrar e `offset` é o número de posições que queremos mover para a esquerda 
+    no alfabeto.
 * `src/tests.js`: este arquivo que contem os testes.

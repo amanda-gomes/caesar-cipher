@@ -141,3 +141,14 @@ if (teste18 === 'Só mais um né') {
 else {
     console.log("Teste 18 não funcionou! Resultado " + teste18);
 }
+
+function verificaIgualdade(calculado, esperado) {
+    if (calculado === esperado) {
+      console.log("Passou!");
+      return true;
+    } else {
+      console.log("Deu Erro! " + calculado + " não é igual a " + esperado);
+      return false;
+    }
+  }
+  verificaIgualdade(cifrar('Só mais um né', 10), 'Có wksc ew xé');
